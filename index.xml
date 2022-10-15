@@ -1,21 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Hugo Theme Fuji</title>
-    <link>https://github.dsrkafuu.net/hugo-theme-fuji/</link>
-    <description>Recent content on Hugo Theme Fuji</description>
+    <title>Hexadoo Site</title>
+    <link>https://hexadoo.github.io/</link>
+    <description>Recent content on Hexadoo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 15 Oct 2022 00:20:07 -0400</lastBuildDate><atom:link href="https://github.dsrkafuu.net/hugo-theme-fuji/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 15 Oct 2022 00:20:07 -0400</lastBuildDate><atom:link href="https://hexadoo.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Mypost 1</title>
-      <link>https://github.dsrkafuu.net/hugo-theme-fuji/posts/mypost/</link>
+      <title>Posts</title>
+      <link>https://hexadoo.github.io/posts/</link>
       <pubDate>Sat, 15 Oct 2022 00:20:07 -0400</pubDate>
-      
-      <guid>https://github.dsrkafuu.net/hugo-theme-fuji/posts/mypost/</guid>
-      <description>My contenet 11111
-hugo server </description>
+      <guid>https://hexadoo.github.io/posts/</guid>
+      <description></description>
     </item>
-    
+    <item>
+      <title>Mypost 3</title>
+      <link>https://hexadoo.github.io/basics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://hexadoo.github.io/basics/</guid>
+      <description>Lorem Ipsum.</description>
+    </item>
   </channel>
 </rss>
