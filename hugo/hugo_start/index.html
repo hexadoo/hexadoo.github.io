@@ -6,8 +6,7 @@
     <meta name="generator" content="Hugo 0.104.3">
     <meta name="generator" content="Relearn 5.3.3+tip">
     <meta name="description" content="">
-    <title>Tags - Hexadoo Site</title>
-    <link href="/tags/index.xml" rel="alternate" type="application/rss+xml" title="Hexadoo Site">
+    <title>Start with Hugo - Hexadoo Site</title>
     <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
     <link href="/css/fontawesome-all.min.css?1665961698" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fontawesome-all.min.css?1665961698" rel="stylesheet"></noscript>
     <link href="/css/featherlight.min.css?1665961698" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/featherlight.min.css?1665961698" rel="stylesheet"></noscript>
@@ -38,7 +37,7 @@
     </script>
     <script src="/js/jquery.min.js?1665961698" defer></script>
   </head>
-  <body class="mobile-support html" data-url="/tags/">
+  <body class="mobile-support default" data-url="/hugo/hugo_start/">
     <div id="body" class="default-animation">
       <div id="sidebar-overlay"></div>
       <div id="toc-overlay"></div>
@@ -48,9 +47,29 @@
             <span id="sidebar-toggle-span">
               <a href="#" id="sidebar-toggle" title='Menu (CTRL+ALT+n)'><i class="fas fa-bars fa-fw"></i></a>
             </span>
+            <span id="toc-menu" title='Table of Contents (CTRL+ALT+t)'><i class="fas fa-list-alt fa-fw"></i></span>
             <span class="links">
-              Tags
+              Start with Hugo
             </span>
+          </div>
+          <div class="default-animation progress">
+            <div class="wrapper">
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#install-hugo">Install hugo</a></li>
+    <li><a href="#create-a-new-site">Create a new site</a></li>
+    <li><a href="#install-themes">Install themes</a></li>
+    <li><a href="#config-themes">config themes</a></li>
+    <li><a href="#test-site">test site</a></li>
+    <li><a href="#add-new-post">Add new post</a></li>
+  </ul>
+
+  <ul>
+    <li><a href="#setup-hugo-on-github-main-branch">Setup hugo on github main branch</a></li>
+    <li><a href="#create-static-files">Create static files</a></li>
+  </ul>
+</nav>
+            </div>
           </div>
         </div>
       </nav>
@@ -58,15 +77,53 @@
         <div class="flex-block-wrapper">
           <div id="head-tags">
           </div>
-          <article>
+          <article class="default">
+<h1>Start with Hugo</h1>
 
-<h1>Tags</h1>
-<ul>
-</ul>
-
+<p>My contenet 11111</p>
+<pre tabindex="0"><code>hugo server
+</code></pre><h2 id="install-hugo">Install hugo</h2>
+<p>Download the binary
+unzip
+change the system environement variable:
+![[Pasted image 20221010102257.png]]
+Add the hugo folder</p>
+<hr>
+<p><a href="https://www.youtube.com/watch?v=LIFvgrRxdt4">https://www.youtube.com/watch?v=LIFvgrRxdt4</a></p>
+<h2 id="create-a-new-site">Create a new site</h2>
+<pre tabindex="0"><code class="language-git" data-lang="git">hugo new site hexadoo
+</code></pre><h2 id="install-themes">Install themes</h2>
+<p>Go to themes folder and clone the thems</p>
+<pre tabindex="0"><code class="language-git" data-lang="git">git clone https://github.com/McShelby/hugo-theme-relearn.git
+</code></pre><h2 id="config-themes">config themes</h2>
+<p>Edit the config.toml file in terminal or with VSCode</p>
+<pre tabindex="0"><code class="language-git" data-lang="git">vi config.toml
+</code></pre><p>Edit with the following</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-Text" data-lang="Text"><span style="display:flex;"><span>baseURL: = &#39;https://github.com/hexadoo/hexadoo.github.io&#39;
+</span></span><span style="display:flex;"><span>languageCode = &#34;en-us&#34;
+</span></span><span style="display:flex;"><span>title = &#34;Hexadoo Site&#34;
+</span></span><span style="display:flex;"><span>theme=&#34;hugo-theme-relearn&#34;
+</span></span></code></pre></div><h2 id="test-site">test site</h2>
+<p>Run hugo server to test site locally</p>
+<pre tabindex="0"><code>hugo server
+</code></pre><h2 id="add-new-post">Add new post</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>hugo new posts/mypost.md
+</span></span></code></pre></div><h1 id="create-content-pages">Create content pages</h1>
+<p>**Create chapter</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>hugo new --kind chapter basics/_index.md
+</span></span></code></pre></div><p>**New content insid main</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>hugo new basics/first-content.md
+</span></span><span style="display:flex;"><span>hugo new basics/second-content/_index.md
+</span></span></code></pre></div><h2 id="setup-hugo-on-github-main-branch">Setup hugo on github main branch</h2>
+<p>Go to the hubo site folder to create a sub module</p>
+<pre tabindex="0"><code>git submodule add -b main https://github.com/hexadoo/hexadoo.github.io.git public
+</code></pre><h2 id="create-static-files">Create static files</h2>
+<pre tabindex="0"><code>hugo -t hugo-theme-relearn
+</code></pre>
             <footer class="footline">
             </footer>
-          </article>        </div>
+          </article>
+        </div>
       </main>
     </div>
     <aside id="sidebar" class="default-animation">
@@ -150,8 +207,8 @@
       </div>
       <div id="content-wrapper" class="highlightable">
         <ul class="topics">
-          <li data-nav-id="/hugo/" class="dd-item alwaysopen"><a href="/hugo/">Hugoes</a><ul id="subsections-8648f46f5fc689f8c040733e22385855">
-          <li data-nav-id="/hugo/hugo_start/" class="dd-item"><a href="/hugo/hugo_start/">Start with Hugo</a></li></ul></li>
+          <li data-nav-id="/hugo/" class="dd-item parent alwaysopen"><a href="/hugo/">Hugoes</a><ul id="subsections-8648f46f5fc689f8c040733e22385855">
+          <li data-nav-id="/hugo/hugo_start/" class="dd-item active"><a href="/hugo/hugo_start/">Start with Hugo</a></li></ul></li>
           <li data-nav-id="/basics/" class="dd-item"><a href="/basics/">Mypost 3</a></li>
         </ul>
         <div class="footermargin footerLangSwitch footerVariantSwitch footerVisitedLinks footerFooter showVariantSwitch showFooter"></div>

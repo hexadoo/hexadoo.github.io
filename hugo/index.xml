@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugoes on Hexadoo Site</title>
+    <link>https://hexadoo.github.io/hugo/</link>
+    <description>Recent content in Hugoes on Hexadoo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 15 Oct 2022 00:20:07 -0400</lastBuildDate><atom:link href="https://hexadoo.github.io/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Start with Hugo</title>
+      <link>https://hexadoo.github.io/hugo/hugo_start/</link>
+      <pubDate>Sat, 15 Oct 2022 00:20:07 -0400</pubDate>
+      <guid>https://hexadoo.github.io/hugo/hugo_start/</guid>
+      <description>My contenet 11111
+hugo server Install hugo Download the binary unzip change the system environement variable: ![[Pasted image 20221010102257.png]] Add the hugo folder
+https://www.youtube.com/watch?v=LIFvgrRxdt4
+Create a new site hugo new site hexadoo Install themes Go to themes folder and clone the thems
+git clone https://github.com/McShelby/hugo-theme-relearn.git config themes Edit the config.toml file in terminal or with VSCode
+vi config.toml Edit with the following
+baseURL: = &amp;#39;https://github.com/hexadoo/hexadoo.github.io&amp;#39; languageCode = &amp;#34;en-us&amp;#34; title = &amp;#34;Hexadoo Site&amp;#34; theme=&amp;#34;hugo-theme-relearn&amp;#34; test site Run hugo server to test site locally</description>
+    </item>
+  </channel>
+</rss>

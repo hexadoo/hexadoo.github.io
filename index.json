@@ -7,18 +7,18 @@
     "uri": "/"
   },
   {
-    "content": "My contenet 11111\nhugo server ",
-    "description": "",
-    "tags": null,
-    "title": "Mypost 1",
-    "uri": "/posts/mypost/"
-  },
-  {
     "content": "",
     "description": "",
     "tags": null,
-    "title": "Posts",
-    "uri": "/posts/"
+    "title": "Hugoes",
+    "uri": "/hugo/"
+  },
+  {
+    "content": "My contenet 11111\nhugo server Install hugo Download the binary unzip change the system environement variable: ![[Pasted image 20221010102257.png]] Add the hugo folder\nhttps://www.youtube.com/watch?v=LIFvgrRxdt4\nCreate a new site hugo new site hexadoo Install themes Go to themes folder and clone the thems\ngit clone https://github.com/McShelby/hugo-theme-relearn.git config themes Edit the config.toml file in terminal or with VSCode\nvi config.toml Edit with the following\nbaseURL: = 'https://github.com/hexadoo/hexadoo.github.io' languageCode = \"en-us\" title = \"Hexadoo Site\" theme=\"hugo-theme-relearn\" test site Run hugo server to test site locally\nhugo server Add new post hugo new posts/mypost.md Create content pages **Create chapter\nhugo new --kind chapter basics/_index.md **New content insid main\nhugo new basics/first-content.md hugo new basics/second-content/_index.md Setup hugo on github main branch Go to the hubo site folder to create a sub module\ngit submodule add -b main https://github.com/hexadoo/hexadoo.github.io.git public Create static files hugo -t hugo-theme-relearn ",
+    "description": "",
+    "tags": null,
+    "title": "Start with Hugo",
+    "uri": "/hugo/hugo_start/"
   },
   {
     "content": "",
