@@ -4,41 +4,41 @@
     "description": "",
     "tags": null,
     "title": "Hexadoo Site",
-    "uri": "/hexadoo/hexadoo.github.io/"
+    "uri": "/"
   },
   {
     "content": "My contenet 11111\nhugo server ",
     "description": "",
     "tags": null,
     "title": "Mypost 1",
-    "uri": "/hexadoo/hexadoo.github.io/posts/mypost/"
+    "uri": "/posts/mypost/"
   },
   {
     "content": "",
     "description": "",
     "tags": null,
     "title": "Posts",
-    "uri": "/hexadoo/hexadoo.github.io/posts/"
+    "uri": "/posts/"
   },
   {
     "content": "",
     "description": "",
     "tags": null,
     "title": "Categories",
-    "uri": "/hexadoo/hexadoo.github.io/categories/"
+    "uri": "/categories/"
   },
   {
     "content": "Lorem Ipsum.\n",
     "description": "",
     "tags": null,
     "title": "Mypost 3",
-    "uri": "/hexadoo/hexadoo.github.io/basics/"
+    "uri": "/basics/"
   },
   {
     "content": "",
     "description": "",
     "tags": null,
     "title": "Tags",
-    "uri": "/hexadoo/hexadoo.github.io/tags/"
+    "uri": "/tags/"
   }
 ]
