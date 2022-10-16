@@ -8,18 +8,18 @@
     <meta name="description" content="">
     <title>Start with Hugo - Hexadoo Site</title>
     <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
-    <link href="/css/fontawesome-all.min.css?1665961698" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fontawesome-all.min.css?1665961698" rel="stylesheet"></noscript>
-    <link href="/css/featherlight.min.css?1665961698" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/featherlight.min.css?1665961698" rel="stylesheet"></noscript>
-    <link href="/css/auto-complete.css?1665961698" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/auto-complete.css?1665961698" rel="stylesheet"></noscript>
-    <link href="/css/perfect-scrollbar.min.css?1665961698" rel="stylesheet">
-    <link href="/css/nucleus.css?1665961698" rel="stylesheet">
-    <link href="/css/fonts.css?1665961698" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fonts.css?1665961698" rel="stylesheet"></noscript>
-    <link href="/css/theme.css?1665961698" rel="stylesheet">
-    <link href="/css/theme-relearn-light.css?1665961698" rel="stylesheet" id="variant-style">
-    <link href="/css/ie.css?1665961698" rel="stylesheet">
-    <link href="/css/variant.css?1665961698" rel="stylesheet">
-    <link href="/css/print.css?1665961698" rel="stylesheet" media="print">
-    <script src="/js/variant.js?1665961698"></script>
+    <link href="/css/fontawesome-all.min.css?1665963039" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fontawesome-all.min.css?1665963039" rel="stylesheet"></noscript>
+    <link href="/css/featherlight.min.css?1665963039" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/featherlight.min.css?1665963039" rel="stylesheet"></noscript>
+    <link href="/css/auto-complete.css?1665963039" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/auto-complete.css?1665963039" rel="stylesheet"></noscript>
+    <link href="/css/perfect-scrollbar.min.css?1665963039" rel="stylesheet">
+    <link href="/css/nucleus.css?1665963039" rel="stylesheet">
+    <link href="/css/fonts.css?1665963039" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fonts.css?1665963039" rel="stylesheet"></noscript>
+    <link href="/css/theme.css?1665963039" rel="stylesheet">
+    <link href="/css/theme-relearn-light.css?1665963039" rel="stylesheet" id="variant-style">
+    <link href="/css/ie.css?1665963039" rel="stylesheet">
+    <link href="/css/variant.css?1665963039" rel="stylesheet">
+    <link href="/css/print.css?1665963039" rel="stylesheet" media="print">
+    <script src="/js/variant.js?1665963039"></script>
     <script>
       // hack to let hugo tell us how to get to the root when using relativeURLs, it needs to be called *url= for it to do its magic:
       // https://github.com/gohugoio/hugo/blob/145b3fcce35fbac25c7033c91c1b7ae6d1179da8/transform/urlreplacers/absurlreplacer.go#L72
@@ -35,7 +35,7 @@
       var baseUriFull='https:\/\/hexadoo.github.io/';
       window.variants && variants.init( [ 'relearn-light', 'relearn-dark' ] );
     </script>
-    <script src="/js/jquery.min.js?1665961698" defer></script>
+    <script src="/js/jquery.min.js?1665963039" defer></script>
   </head>
   <body class="mobile-support default" data-url="/hugo/hugo_start/">
     <div id="body" class="default-animation">
@@ -63,11 +63,6 @@
     <li><a href="#test-site">test site</a></li>
     <li><a href="#add-new-post">Add new post</a></li>
   </ul>
-
-  <ul>
-    <li><a href="#setup-hugo-on-github-main-branch">Setup hugo on github main branch</a></li>
-    <li><a href="#create-static-files">Create static files</a></li>
-  </ul>
 </nav>
             </div>
           </div>
@@ -80,7 +75,7 @@
           <article class="default">
 <h1>Start with Hugo</h1>
 
-<p>My contenet 11111</p>
+<p>Start the hugo server</p>
 <pre tabindex="0"><code>hugo server
 </code></pre><h2 id="install-hugo">Install hugo</h2>
 <p>Download the binary
@@ -108,18 +103,7 @@ Add the hugo folder</p>
 <pre tabindex="0"><code>hugo server
 </code></pre><h2 id="add-new-post">Add new post</h2>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>hugo new posts/mypost.md
-</span></span></code></pre></div><h1 id="create-content-pages">Create content pages</h1>
-<p>**Create chapter</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>hugo new --kind chapter basics/_index.md
-</span></span></code></pre></div><p>**New content insid main</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>hugo new basics/first-content.md
-</span></span><span style="display:flex;"><span>hugo new basics/second-content/_index.md
-</span></span></code></pre></div><h2 id="setup-hugo-on-github-main-branch">Setup hugo on github main branch</h2>
-<p>Go to the hubo site folder to create a sub module</p>
-<pre tabindex="0"><code>git submodule add -b main https://github.com/hexadoo/hexadoo.github.io.git public
-</code></pre><h2 id="create-static-files">Create static files</h2>
-<pre tabindex="0"><code>hugo -t hugo-theme-relearn
-</code></pre>
+</span></span></code></pre></div>
             <footer class="footline">
             </footer>
           </article>
@@ -198,16 +182,18 @@ Add the hugo folder</p>
         <script>
           var contentLangs=['en'];
         </script>
-        <script src="/js/auto-complete.js?1665961698" defer></script>
-        <script src="/js/lunr.min.js?1665961698" defer></script>
-        <script src="/js/lunr.stemmer.support.min.js?1665961698" defer></script>
-        <script src="/js/lunr.multi.min.js?1665961698" defer></script>
-        <script src="/js/lunr.en.min.js?1665961698" defer></script>
-        <script src="/js/search.js?1665961698" defer></script>
+        <script src="/js/auto-complete.js?1665963039" defer></script>
+        <script src="/js/lunr.min.js?1665963039" defer></script>
+        <script src="/js/lunr.stemmer.support.min.js?1665963039" defer></script>
+        <script src="/js/lunr.multi.min.js?1665963039" defer></script>
+        <script src="/js/lunr.en.min.js?1665963039" defer></script>
+        <script src="/js/search.js?1665963039" defer></script>
       </div>
       <div id="content-wrapper" class="highlightable">
         <ul class="topics">
-          <li data-nav-id="/hugo/" class="dd-item parent alwaysopen"><a href="/hugo/">Hugoes</a><ul id="subsections-8648f46f5fc689f8c040733e22385855">
+          <li data-nav-id="/hugo/" class="dd-item parent alwaysopen"><a href="/hugo/">Hugo</a><ul id="subsections-ef316f270f03d7c7f58cd9ecd4a56120">
+          <li data-nav-id="/hugo/markdown/" class="dd-item"><a href="/hugo/markdown/">Markdown for Hugo</a></li>
+          <li data-nav-id="/hugo/content/" class="dd-item"><a href="/hugo/content/">Create Content</a></li>
           <li data-nav-id="/hugo/hugo_start/" class="dd-item active"><a href="/hugo/hugo_start/">Start with Hugo</a></li></ul></li>
           <li data-nav-id="/basics/" class="dd-item"><a href="/basics/">Mypost 3</a></li>
         </ul>
@@ -250,9 +236,9 @@ Add the hugo folder</p>
         </div>
       </div>
     </aside>
-    <script src="/js/clipboard.min.js?1665961698" defer></script>
-    <script src="/js/perfect-scrollbar.min.js?1665961698" defer></script>
-    <script src="/js/featherlight.min.js?1665961698" defer></script>
+    <script src="/js/clipboard.min.js?1665963039" defer></script>
+    <script src="/js/perfect-scrollbar.min.js?1665963039" defer></script>
+    <script src="/js/featherlight.min.js?1665963039" defer></script>
     <script>
       function useMathJax( config ){
         if( !Object.assign ){
@@ -282,7 +268,7 @@ Add the hugo folder</p>
       useMathJax( JSON.parse("{}") );
     </script>
     <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-    <script src="/js/jquery.svg.pan.zoom.js?1665961698" defer></script>
+    <script src="/js/jquery.svg.pan.zoom.js?1665963039" defer></script>
     <script src="https://unpkg.com/mermaid/dist/mermaid.min.js" defer></script>
     <script>
       window.themeUseMermaid = JSON.parse("{ \"theme\": \"default\" }");
@@ -291,6 +277,6 @@ Add the hugo folder</p>
     <script>
       window.themeUseSwagger = JSON.parse("{ \"theme\": \"light\" }");
     </script>
-    <script src="/js/theme.js?1665961698" defer></script>
+    <script src="/js/theme.js?1665963039" defer></script>
   </body>
 </html>

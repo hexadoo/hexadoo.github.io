@@ -6,13 +6,13 @@
     <description>Recent content on Hexadoo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 15 Oct 2022 00:20:07 -0400</lastBuildDate><atom:link href="https://hexadoo.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 16 Oct 2022 00:19:07 -0400</lastBuildDate><atom:link href="https://hexadoo.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Hugoes</title>
+      <title>Hugo</title>
       <link>https://hexadoo.github.io/hugo/</link>
-      <pubDate>Sat, 15 Oct 2022 00:20:07 -0400</pubDate>
+      <pubDate>Sun, 16 Oct 2022 00:19:07 -0400</pubDate>
       <guid>https://hexadoo.github.io/hugo/</guid>
-      <description></description>
+      <description>My personal documentation on running Hugo</description>
     </item>
     <item>
       <title>Mypost 3</title>
