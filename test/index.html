@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Data Matrix SVG Example</title>
+	<script src="./datamatrix-svg.js"></script>
+</head>
+<body>
+	<h1>Data Matrix SVG Example</h1>
+	<p>Enter your data below:</p>
+	<textarea id="data-input"></textarea>
+	<button onclick="generateDataMatrix()">Generate Data Matrix</button>
+	<div id="data-matrix"></div>
+	<script>
+		function generateDataMatrix() {
+			var data = document.getElementById("data-input").value;
+			var options = {
+				cellSize: 3,
+				margin: 1,
+				color: "#000000",
+				background: "#ffffff",
+			};
+			var svg = datamatrix(data, options);
+			document.getElementById("data-matrix").innerHTML = svg;
+		}
+	</script>
+</body>
+</html>
